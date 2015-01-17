@@ -6,8 +6,6 @@
 #include "../GAMEFILE_ns/GAMEFILE_ns.h"
 #include "../GAME2SDL_ns/GAME2SDL_ns.h"
 
-LEAFGAME::GAME2SDL::Sprite testsprite = 0;
-
 void LEAFGAME::GAMECODE::run() {
 
     LEAFGAME::GAMEINFO::setTitle("LEAFGAME");
@@ -25,18 +23,8 @@ void LEAFGAME::GAMECODE::advance() {
 
 void LEAFGAME::GAMECODE::draw() {
 
-    if (!testsprite) {
-
-        unsigned char spritedata[0xAD];
-        testsprite = LEAFGAME::GAME2SDL::loadSprite(LEAFGAME::GAMEFILE::load("testsprite", "sprites", 0xAD, spritedata));
-        LEAFGAME::GAMEFILE::save("testsprite", "sprites", 0xAD, spritedata);
-
-    }
-
-    LEAFGAME::GAME2SDL::drawSprite(testsprite, 16, 16);
-
 }
 
 void LEAFGAME::GAMECODE::purge() {
-    LEAFGAME::GAME2SDL::purgeSprite(testsprite);
+
 }
