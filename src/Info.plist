@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>leafgame</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.u2764.leafgame</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LEAFGAME</string>
+	<key>CFBundleDisplayName</key>
+	<string>sample leafgame</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7</string>
+	<key>NSHighResolutionCapable</key>
+	<string>YES</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© Benjam @ http://benjam.xyz</string>
+</dict>
+</plist>
