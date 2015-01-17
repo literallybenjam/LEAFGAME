@@ -16,7 +16,7 @@ apple:
 	g++ -o buildfiles/GAME2OPS_ns.o -c GAME2OPS_ns/GAME2OPS_ns.cc
 	g++ -o buildfiles/GAME2SDL_ns.o -c GAME2SDL_ns/GAME2SDL_ns.cc
 	g++ -o buildfiles/GAMECODE_ns.o -c GAMECODE_ns/GAMECODE_ns.cc
-	g++ -o ../leafgame.app/Contents/MacOS/leafgame -framework SDL2_mixer -framework SDL2 -framework cocoa -rpath @executable_path/../Frameworks buildfiles/*
+	g++ -o ../leafgame.app/Contents/MacOS/leafgame -framework SDL2_image -framework SDL2_mixer -framework SDL2 -framework cocoa -rpath @executable_path/../Frameworks buildfiles/*
 
 clean:
 	rm -r buildfiles
